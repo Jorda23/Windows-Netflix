@@ -1,0 +1,162 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:200,300,400,500,600,700,800,900&display=swap');
+
+
+.containerTwo {
+	position: relative;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	max-width: 1400px;
+	flex-wrap: wrap;
+	z-index: 1;
+}
+
+.containerTwo .cardTwo {
+	position: relative;
+	width: 190px;
+	height: 260px;
+	margin: 10px;
+	box-shadow: 20px 20px 50px rgba( 0, 0, 0, 0.5);
+	border-radius: 15px;
+	background: rgba(255, 255, 255, 0.1);
+	overflow: hidden;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	border-top: 1px solid rgba( 255, 255, 255, 0.5);
+	border-left: 1px solid rgba( 255, 255, 255, 0.5);
+	backdrop-filter: blur(5px);
+}
+
+.containerTwo .imageOne {
+    background-image: url(../imagenForNav/backgroundSerie1.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-blend-mode: soft-light;
+}
+.containerTwo .imageTwo {
+    background-image: url(../imagenForNav/backgroundSerie2.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-blend-mode: soft-light;
+}
+.containerTwo .imageThree {
+    background-image: url(../imagenForNav/backgroundSerie3.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-blend-mode: soft-light;
+}
+.containerTwo .imageFour {
+    background-image: url(../imagenForNav/backgroundSerie4.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-blend-mode: soft-light;
+}
+.containerTwo .imageFive {
+    background-image: url(../imagenForNav/backgroundSerie5.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-blend-mode: soft-light;
+}
+.containerTwo .imageSix{
+    background-image: url(../imagenForNav/backgroundSerie6.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-blend-mode: soft-light;
+}
+.containerTwo .imageSeven{
+    background-image: url(../imagenForNav/backgroundSerie7.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-blend-mode: soft-light;
+}
+.containerTwo .imageEight {
+    background-image: url(../imagenForNav/backgroundSerie8.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-blend-mode: soft-light;
+}
+.containerTwo .imageNine{
+    background-image: url(../imagenForNav/backgroundSerie9.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-blend-mode: soft-light;
+}
+
+.containerTwo .imageTen {
+    background-image: url(../imagenForNav/backgroundSerie10.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-blend-mode: soft-light;
+}
+
+.containerTwo .imageEleven {
+    background-image: url(../imagenForNav/backgroundSerie8.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-blend-mode: soft-light;
+}
+
+.containerTwo .imageTwelve {
+    background-image: url(../imagenForNav/backgroundSerie10.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-blend-mode: soft-light;
+}
+
+
+.containerTwo .cardTwo .content {
+	padding: 20px;
+	text-align: center;
+	transform: translate(100px);
+	opacity: 0;
+	transition: 0.5s;
+}
+
+.containerTwo:hover .content {
+	transform: translate(0px);
+	opacity: 1;
+}
+
+.containerTwo .cardTwo .content a{
+	font-size: 10px;
+	top: 80px;
+	position: relative;
+	display: inline-block;
+	padding: 8px 20px;
+	margin-top: 25px;
+	background-color: #fff;
+	color: #000;
+	border-radius: 20px;
+	text-decoration: none;
+	font-weight: 500;
+	box-shadow: 0 5px 15px rgba(0, 0, 0, 0.5);
+}
+
+.containerTwo .cardTwo .content a:hover{
+	transition-duration: 0.2s;
+	background-color: rgb(104, 104, 104);
+	color: rgb(255, 255, 255);
+}
+
+.containerTwo .boton {
+	top: -20px;
+	position: relative;
+	display: inline-block;
+	padding: 8px 20px;
+	margin-top: 25px;
+	background-color: rgb(255, 255, 255);
+	color: rgb(0, 0, 0);
+	border-radius: 20px;
+	border-color: rgba(255, 255, 255, 0);
+	text-decoration: none;
+	font-weight: 500;
+	box-shadow: 0 5px 15px rgba(0, 0, 0, 0.5);
+}
+
+.containerTwo .boton:hover{
+	transition-duration: 0.2s;
+	background-color: rgb(104, 104, 104);
+	color: rgb(255, 255, 255);
+}
+
